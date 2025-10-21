@@ -830,16 +830,16 @@ shinyApp(ui, server)
 # install.packages("rsconnect")
 
 #2. Account Authorisation
-rsconnect::setAccountInfo(name='pmokadi', 
-                          token='2C95EA6D5686DED04D1825A3F488F866', 
-                          secret='sg8H0hY25Fm29fA7NHdj9q4vueIUsv/55bqUY9xA')
+#rsconnect::setAccountInfo(name='pmokadi', 
+  #                        token='2C95EA6D5686DED04D1825A3F488F866', 
+    #                      secret='sg8H0hY25Fm29fA7NHdj9q4vueIUsv/55bqUY9xA')
 
 #3. Setting Directory
-setwd("/Users/pmokadi/BIN381 Project Model Deployment")
+#setwd("/Users/pmokadi/BIN381 Project Model Deployment")
 
 #4.Deploy
-library(rsconnect)
-rsconnect::deployApp(
-  appName = "SA-Water-Access-GroupH",
-  appTitle = "SA Water Access - Group H"
-)
+#library(rsconnect)
+#rsconnect::deployApp(
+#  appName = "SA-Water-Access-GroupH",
+ # appTitle = "SA Water Access - Group H"
+#)
