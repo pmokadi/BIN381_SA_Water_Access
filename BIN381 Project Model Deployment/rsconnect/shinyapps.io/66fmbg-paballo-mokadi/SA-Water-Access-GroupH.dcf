@@ -1,0 +1,12 @@
+name: SA-Water-Access-GroupH
+title: SA Water Access - Group H
+username: 66fmbg-paballo-mokadi
+account: 66fmbg-paballo-mokadi
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 15816757
+bundleId: 11063503
+url: https://pmokadi.shinyapps.io/SA-Water-Access-GroupH/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
