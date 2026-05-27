@@ -131,44 +131,6 @@ runApp("app.R")
 
 ---
 
-## 🌐 Deployment (shinyapps.io)
-
-### Step 1: Install Deployment Package
-
-```r
-install.packages("rsconnect")
-library(rsconnect)
-```
-
-### Step 2: Configure Account
-
-1. Sign up at [shinyapps.io](https://www.shinyapps.io/)
-2. Go to **Account → Tokens → Show**
-3. Copy the `setAccountInfo` command
-
-```r
-# Paste your token details
-rsconnect::setAccountInfo(
-  name = "your_account_name",
-  token = "your_token",
-  secret = "your_secret"
-)
-```
-
-### Step 3: Deploy
-
-```r
-# Deploy to shinyapps.io
-rsconnect::deployApp(
-  appName = "sa-water-access-grouph",
-  appTitle = "SA Water Access Dashboard - Group H"
-)
-```
-
-Deployment takes ~2 minutes. You'll receive a live URL upon completion.
-
----
-
 ## 📊 Data Sources
 
 ### Primary Dataset
